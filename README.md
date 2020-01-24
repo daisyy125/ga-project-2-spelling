@@ -3,15 +3,15 @@
 My app is called Spelling BusyBees. It’s a dictionary app for kids to look up their spelling words of the week and to keep track of their previous defined words in a list format. I chose this dictionary API because it provides definitions, pronunciations and example sentence for Intermediate level. In the future, I’d like to add a feature so that users can also find the synonym of the word and store previous words searches on a spelling list to review again when needed.
 
 ## Table of Contents:
-- [User Stories]()
-- [Wireframes]()
-- [Planning]()
-- [Technologies]()
-- [Installation]()
-- [Usage]()
-- [UX Modifications/Hurdles/Unsolved problems]()
-- [Future Add-ons]()
-- [Credits]()
+- [User Stories](https://github.com/daisyy125/ga-project-2-spelling#user-stories)
+- [Wireframes](https://github.com/daisyy125/ga-project-2-spelling#wireframes)
+- [Planning](https://github.com/daisyy125/ga-project-2-spelling#planning-checklist)
+- [Technologies](https://github.com/daisyy125/ga-project-2-spelling#technologies)
+- [Installation](https://github.com/daisyy125/ga-project-2-spelling#installation)
+- [Usage](https://github.com/daisyy125/ga-project-2-spelling#usage)
+- [UX Modifications/Hurdles/Unsolved problems](https://github.com/daisyy125/ga-project-2-spelling#modificationshurdlesunsolved-problems)
+- [Future Add-ons](https://github.com/daisyy125/ga-project-2-spelling#future-add-ons)
+- [Credits](https://github.com/daisyy125/ga-project-2-spelling#credits)
 
 ## User Stories:
 

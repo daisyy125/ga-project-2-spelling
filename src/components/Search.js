@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-function Search() {
+function Search(props) {
     return (
         <div>
-            <form >
+            <form onSubmit={props.handleSubmit} >
                 <input placeholder="Search Word" type="text" />
                 <button type="submit">BeeFind</button>
             </form>
