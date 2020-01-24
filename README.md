@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Spelling BusyBees
 
-## Available Scripts
+My app is called Spelling BusyBees. It’s a dictionary app for kids to look up their spelling words of the week and to keep track of their previous defined words in a list format. I chose this dictionary API because it provides definitions, pronunciations and example sentence for Intermediate level. In the future, I’d like to add a feature so that users can also find the synonym of the word and store previous words searches on a spelling list to review again when needed.
 
-In the project directory, you can run:
+## Table of Contents:
+- [User Stories]()
+- [Wireframes]()
+- [Planning]()
+- [Technologies]()
+- [Installation]()
+- [Usage]()
+- [UX Modifications/Hurdles/Unsolved problems]()
+- [Future Add-ons]()
+- [Credits]()
 
-### `npm start`
+## User Stories:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+(1) Who are the users?
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+*Children around grades 6-8.*
 
-### `npm test`
+(2) Why are they using the product/service?
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*To define their spelling words for homework and help them study.*
 
-### `npm run build`
+(3) What are they going to do?
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Use this app as a main go-to source to define their spelling words in terminologies they understand wih sentence examples. It will also be an app that can store their previous searched words in a list form to refer back to.*
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Wireframes:
+I used a free program Wireframe.cc to create my wireframes. This is to get an idea of how I want my layout to be for the main page with search bar and the definition results page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Main page with search bar:** https://wireframe.cc/DURNAo
 
-### `npm run eject`
+![](https://github.com/daisyy125/ga-project-2-spelling/blob/master/wireframes/main_page.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Definition results page:** https://wireframe.cc/4qb7oH
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](https://github.com/daisyy125/ga-project-2-spelling/blob/master/wireframes/word_page.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Planning checklist:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+I created a [Trello Board](https://trello.com/b/3RcbX0Ee/ga-project-2-react-app) to keep my planning organized with the project tasks, reference links, and due dates. Thanks to my Instructor Assistant for the suggestion, Esin Saribudak :purple_heart:
 
-## Learn More
+**Bronze version**
+- [ ] Search input and button to retrieve correct data from API
+- [ ] Display word definition correctly on results page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Silver version**
+- [ ] Mobile version
+- [ ] Store previous searches
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Gold version**
+- [ ] Allow user to create spelling list from previous searches
 
-### Code Splitting
+## Technologies:
+- React
+- CSS (passed CSS Validator)
+- Flexbox
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Installation:
+- NEED TO UPDATE
 
-### Analyzing the Bundle Size
+## Usage:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- NEED TO UPDATE
 
-### Making a Progressive Web App
+## Modifications/Hurdles/Unsolved Problems
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+**Modifications:**
 
-### Advanced Configuration
+**Hurdles:**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+**Unsolved problems:**
 
-### Deployment
+## Future Add-ons
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Credits
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**App help:**
