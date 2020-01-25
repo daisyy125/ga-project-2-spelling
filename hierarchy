@@ -1,0 +1,19 @@
+App:
+- API
+- Nav.js
+- Search.js
+- Results.js
+
+
+Nav:
+- Header/Title
+
+
+Search:
+- Form
+    - Input
+    - Button
+
+
+Results:
+- Data searched to match Input value
