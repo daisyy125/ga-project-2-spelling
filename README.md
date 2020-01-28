@@ -48,7 +48,7 @@ I created a [Trello Board](https://trello.com/b/3RcbX0Ee/ga-project-2-react-app)
 
 **Silver version**
 - [ ] Add additional API for thesaurus
-- [ ] Mobile version
+- [X] Mobile version
 - [ ] Store previous searches
 
 **Gold version**
@@ -73,13 +73,13 @@ I created a [Trello Board](https://trello.com/b/3RcbX0Ee/ga-project-2-react-app)
 
 **Hurdles:**
 
-I was having issues retrieving the data from arrays nested few layers within. I've tried multiple ways but no data would return in display. Eventually I asked for an extra few sets of eyes to help me, GA peers (Mindy, Dan, Sage and Peter) and GA Instructor (Hou) that I finally got the data to pass through properly. Who knew that you would need to set a condition to verify there is data to pass through and THEN display. Everyday you learn something new!
+- API: I was having issues retrieving the data from arrays nested few layers within. I've tried multiple ways but no data would return in display. Eventually I asked for an extra few sets of eyes to help me, GA peers (Mindy, Dan, Sage and Peter) and GA Instructor (Hou) that I finally got the data to pass through properly. Who knew that you would need to set a condition to verify there is data to pass through and THEN display. Everyday you learn something new!
 
 **Unsolved problems:**
 
 ## Future Add-ons
 
 ## Credits
-- Image by yabayee from Pixabay 
+- Bee Image by yabayee from Pixabay 
 
 **App help:**
