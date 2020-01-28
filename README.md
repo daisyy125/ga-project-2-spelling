@@ -1,6 +1,6 @@
 # Spelling BusyBees
 
-My app is called Spelling BusyBees. It’s a dictionary app for kids to look up their spelling words of the week and to keep track of their previous defined words in a list format. I chose this dictionary API because it provides definitions, pronunciations and example sentence for Intermediate level. In the future, I’d like to add a feature so that users can also find the synonym of the word and store previous words searches on a spelling list to review again when needed.
+My app is called Spelling BusyBees. It’s a dictionary app for kids to look up their spelling words of the week and to keep track of their previous defined words in a list format. I chose this dictionary API because it provides definitions and pronunciations for Intermediate level. In the future, I’d like to add a feature so that users can also find the synonym of the word and store previous words searches on a spelling list to review again when needed.
 
 ## Table of Contents:
 - [User Stories](https://github.com/daisyy125/ga-project-2-spelling#user-stories)

@@ -12,8 +12,8 @@ function App() {
   };
 
   //create an array for search words in state. set to empty string.
-  const [searchWord, setSearchWord] = useState('Welcome');
-  const [returnData, setReturnData] = useState(' ');
+  const [searchWord, setSearchWord] = useState('Dictionary');
+  const [returnData, setReturnData] = useState('');
 
   useEffect(() => {
     getData(searchWord);
@@ -28,6 +28,7 @@ function App() {
       .then(response => response.json())
       .then(response => {
         setReturnData(response[0]);
+        setSearchWord('');
       })
       .catch(console.error);
   }
