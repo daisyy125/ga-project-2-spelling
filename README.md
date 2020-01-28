@@ -43,15 +43,17 @@ I used a free program Wireframe.cc to create my wireframes. This is to get an id
 I created a [Trello Board](https://trello.com/b/3RcbX0Ee/ga-project-2-react-app) to keep my planning organized with the project tasks, reference links, and due dates. Thanks to my Instructor Assistant for the suggestion, Esin Saribudak :purple_heart:
 
 **Bronze version**
-- [ ] Search input and button to retrieve correct data from API
-- [ ] Display word definition correctly on results page
+- [X] Search input and button to retrieve correct data from API
+- [X] Display word definition correctly on results page
 
 **Silver version**
+- [ ] Add additional API for thesaurus
 - [ ] Mobile version
 - [ ] Store previous searches
 
 **Gold version**
 - [ ] Allow user to create spelling list from previous searches
+- [ ] Add Jest unit tests
 
 ## Technologies:
 - React
@@ -71,10 +73,13 @@ I created a [Trello Board](https://trello.com/b/3RcbX0Ee/ga-project-2-react-app)
 
 **Hurdles:**
 
+I was having issues retrieving the data from arrays nested few layers within. I've tried multiple ways but no data would return in display. Eventually I asked for an extra few sets of eyes to help me, GA peers (Mindy, Dan, Sage and Peter) and GA Instructor (Hou) that I finally got the data to pass through properly. Who knew that you would need to set a condition to verify there is data to pass through and THEN display. Everyday you learn something new!
+
 **Unsolved problems:**
 
 ## Future Add-ons
 
 ## Credits
+- Image by yabayee from Pixabay 
 
 **App help:**

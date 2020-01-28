@@ -12,7 +12,7 @@ function App() {
   };
 
   //create an array for search words in state. set to empty string.
-  const [searchWord, setSearchWord] = useState(' ');
+  const [searchWord, setSearchWord] = useState('Welcome');
   const [returnData, setReturnData] = useState(' ');
 
   useEffect(() => {
@@ -27,7 +27,7 @@ function App() {
     fetch(url)
       .then(response => response.json())
       .then(response => {
-        setReturnData(response[0])
+        setReturnData(response[0]);
       })
       .catch(console.error);
   }
@@ -44,9 +44,8 @@ function App() {
   return (
     <div>
       <Nav />
-      {searchWord === ' ' && <p>Enter a word below!</p>}
-      {!searchWord === ' ' && <Results searchWord={searchWord} results={returnData}/>}
       <Search handleSubmit={handleSubmit} handleChange={handleChange} searchWord={searchWord} />
+      <Results searchWord={searchWord} results={returnData}/>
     </div>
   );
 }

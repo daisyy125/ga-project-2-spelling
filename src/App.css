@@ -1,4 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./bee-705412_1280.png');
+    background-position: top center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+}
+
+/* ////////////// */
+/* Header/NAV */
+/* ////////////// */
+
+h1 {
+    background: #EFCA08;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* ////////////// */
+/* SEARCH */
+/* ////////////// */
+
+.formParent {
+    display: flex;
+    height: 50px;
+    justify-content: flex-start;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.formItem {
+    border: 2px solid #F08700;
+    width: 25%;
+}
+
+input {
+    background: lightgrey;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+button {
+    background: #b8e6fe;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+/* ////////////// */
+/* Results */
+/* ////////////// */
+
+.results {
+    background: white;
+    border: 2px dotted #F08700;
+    border-radius: 12px;
+    margin: 100px 0 100px 100px;
+    padding: 50px;
+    width: 400px;
 }
