@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Nav from './components/Nav'
 import Search from './components/Search'
@@ -9,33 +9,33 @@ function App() {
   const searchData = {
     key: process.env.REACT_APP_STOCK_API_KEY,
     api: 'https://www.dictionaryapi.com/api/v3/references/sd3/json/'
-  }
+  };
 
-  const [searchWord, setSearchWord] = useState('');
+  //create an array for search words in state. set to empty string.
+  const [searchWord, setSearchWord] = useState(' ');
+  const [returnData, setReturnData] = useState(' ');
 
-  // useEffect(() => {
-  //   getData(searchWord);
-  // }, []);
-  
+  useEffect(() => {
+    getData(searchWord);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
 
   function getData(searchWord) {
-    console.log(searchWord)
     const url = `${searchData.api}${searchWord}?key=${searchData.key}`;
 
     fetch(url)
-    .then(response => response.json())
-    .then(response => {
-      let dataDefined = response[0];
-      console.log(dataDefined)
-    })
-    .catch(console.error);
+      .then(response => response.json())
+      .then(response => {
+        setReturnData(response[0])
+      })
+      .catch(console.error);
   }
 
   function handleChange(event) {
     setSearchWord(event.target.value);
-    console.log(searchWord)
   }
-  
+
   function handleSubmit(event) {
     event.preventDefault();
     getData(searchWord);
@@ -44,10 +44,12 @@ function App() {
   return (
     <div>
       <Nav />
-      <Results />
-      <Search handleSubmit={handleSubmit} handleChange={handleChange} searchWord={searchWord}/>
+      {searchWord === ' ' && <p>Enter a word below!</p>}
+      {!searchWord === ' ' && <Results searchWord={searchWord} results={returnData}/>}
+      <Search handleSubmit={handleSubmit} handleChange={handleChange} searchWord={searchWord} />
     </div>
   );
 }
+
 
 export default App;
