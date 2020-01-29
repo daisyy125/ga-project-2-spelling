@@ -9,6 +9,7 @@ My app is called Spelling BusyBees. It’s a dictionary app for kids to look up 
 - [Technologies](https://github.com/daisyy125/ga-project-2-spelling#technologies)
 - [Installation](https://github.com/daisyy125/ga-project-2-spelling#installation)
 - [Usage](https://github.com/daisyy125/ga-project-2-spelling#usage)
+- [Testing] (http://github.com/daisyy125/ga-project-2-spelling#testing)
 - [UX Modifications/Hurdles/Unsolved problems](https://github.com/daisyy125/ga-project-2-spelling#modificationshurdlesunsolved-problems)
 - [Future Add-ons](https://github.com/daisyy125/ga-project-2-spelling#future-add-ons)
 - [Credits](https://github.com/daisyy125/ga-project-2-spelling#credits)
@@ -25,7 +26,7 @@ My app is called Spelling BusyBees. It’s a dictionary app for kids to look up 
 
 (3) What are they going to do?
 
-*Use this app as a main go-to source to define their spelling words in terminologies they understand wih sentence examples. It will also be an app that can store their previous searched words in a list form to refer back to.*
+*Use this app as a main go-to source to define their spelling words in terminologies they understand with pronunciation help. It will also be an app that can store their previous searched words in a list form to refer back to.*
 
 ## Wireframes:
 I used a free program Wireframe.cc to create my wireframes. This is to get an idea of how I want my layout to be for the main page with search bar and the definition results page.
@@ -53,33 +54,70 @@ I created a [Trello Board](https://trello.com/b/3RcbX0Ee/ga-project-2-react-app)
 
 **Gold version**
 - [ ] Allow user to create spelling list from previous searches
-- [ ] Add Jest unit tests
+- [ ] Add sound for pronunciation
+- [X] Add Jest unit tests
 
 ## Technologies:
-- React
 - CSS (passed CSS Validator)
+- React
 - Flexbox
+- API
 
 ## Installation:
-- NEED TO UPDATE
+- Download folder ga-project-2-spelling. Which will include the following folders/files:
+    - app css file
+    - public folder
+        - index.html
+    - src folder
+        - components folder
+            - nav
+            - results
+            - search
+    - wireframes folder (images)
+- Open ga-project-2-spelling folder in terminal with npm start.
+
+*Deployed url is listed below under "Usage".
 
 ## Usage:
 
-- NEED TO UPDATE
+https://spellingbusybees.herokuapp.com/
+
+![](https://github.com/daisyy125/ga-project-2-spelling/blob/master/wireframes/spellingbusybee.png)
+
+- Upon pageload the search word input field and button (labeled 'BeeFind') is available for users.
+- Type in a word and click on 'BeeFind' to define the word.
+- Definition will appear below the search field in a box.
+- This page is also responsive, therefore the function on mobile devices are the same as desktop.
+
+## Testing:
+
+- Jest and Enzyme testing on Nav.js. Testing js is included in the component folder.
+- Jest and Enzyme testing on Search.js. Testing js is included in the component folder.
 
 ## Modifications/Hurdles/Unsolved Problems
 
 **Modifications:**
+- UX: I changed the layout of the design so its a better user experience. The mocks originally had the search field near the bottom of the page but I shifted it to the top so users are able to update their search easily instead of having to scroll down if their screens are small.
 
 **Hurdles:**
 
 - API: I was having issues retrieving the data from arrays nested few layers within. I've tried multiple ways but no data would return in display. Eventually I asked for an extra few sets of eyes to help me, GA peers (Mindy, Dan, Sage and Peter) and GA Instructor (Hou) that I finally got the data to pass through properly. Who knew that you would need to set a condition to verify there is data to pass through and THEN display. Everyday you learn something new!
 
+- Jest unit testing: I overanalyzed my test and would run into multiple errors. GA Instructor (Hou) was able to walk me through it and helped me narrow down the major areas to test.
+
 **Unsolved problems:**
+
+- Jest unit testing: I was able to complete two component testing and in progress with the final component testing.
 
 ## Future Add-ons
 
-## Credits
-- Bee Image by yabayee from Pixabay 
+- Add additional API for thesaurus and users are able to toggle between definition and synonym of their searched word.
+- Store previous word searches and allow users to created spelling list from that.
 
-**App help:**
+## Credits
+Thank you to my wonderful GA Instructors (Hou and Jen) and GA peers for providing technical and moral support throughout!
+
+Credits to amazing sources that I'm thankful for! Sending them many many thanks!
+
+- Dictionary API: https://dictionaryapi.com/
+- Bee Image by yabayee from Pixabay

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Nav from './components/Nav'
-import Search from './components/Search'
-import Results from './components/Results'
+import Nav from './components/nav/Nav';
+import Search from './components/search/Search';
+import Results from './components/results/Results';
 
 //set api
 function App() {
@@ -12,14 +12,13 @@ function App() {
   };
 
   //create an array for search words in state. set to empty string.
-  const [searchWord, setSearchWord] = useState('Dictionary');
+  const [searchWord, setSearchWord] = useState('Hello');
   const [returnData, setReturnData] = useState('');
 
   useEffect(() => {
     getData(searchWord);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
 
   function getData(searchWord) {
     const url = `${searchData.api}${searchWord}?key=${searchData.key}`;
@@ -45,11 +44,14 @@ function App() {
   return (
     <div>
       <Nav />
-      <Search handleSubmit={handleSubmit} handleChange={handleChange} searchWord={searchWord} />
-      <Results searchWord={searchWord} results={returnData}/>
+      <Search
+        handleSubmit={handleSubmit}
+        handleChange={handleChange}
+        searchWord={searchWord}
+      />
+      <Results searchWord={searchWord} results={returnData} />
     </div>
   );
 }
-
 
 export default App;
