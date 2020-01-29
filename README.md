@@ -9,7 +9,7 @@ My app is called Spelling BusyBees. It’s a dictionary app for kids to look up 
 - [Technologies](https://github.com/daisyy125/ga-project-2-spelling#technologies)
 - [Installation](https://github.com/daisyy125/ga-project-2-spelling#installation)
 - [Usage](https://github.com/daisyy125/ga-project-2-spelling#usage)
-- [Testing] (http://github.com/daisyy125/ga-project-2-spelling#testing)
+- [Testing](https://github.com/daisyy125/ga-project-2-spelling#testing)
 - [UX Modifications/Hurdles/Unsolved problems](https://github.com/daisyy125/ga-project-2-spelling#modificationshurdlesunsolved-problems)
 - [Future Add-ons](https://github.com/daisyy125/ga-project-2-spelling#future-add-ons)
 - [Credits](https://github.com/daisyy125/ga-project-2-spelling#credits)
@@ -84,7 +84,7 @@ https://spellingbusybees.herokuapp.com/
 
 ![](https://github.com/daisyy125/ga-project-2-spelling/blob/master/wireframes/spellingbusybee.png)
 
-- Upon pageload the search word input field and button (labeled 'BeeFind') is available for users.
+- Upon page load, the search word input field and button (labeled 'BeeFind') is available for users.
 - Type in a word and click on 'BeeFind' to define the word.
 - Definition will appear below the search field in a box.
 - This page is also responsive, therefore the function on mobile devices are the same as desktop.
@@ -112,6 +112,7 @@ https://spellingbusybees.herokuapp.com/
 ## Future Add-ons
 
 - Add additional API for thesaurus and users are able to toggle between definition and synonym of their searched word.
+- Add sound for pronunciation of the word.
 - Store previous word searches and allow users to created spelling list from that.
 
 ## Credits
@@ -121,3 +122,4 @@ Credits to amazing sources that I'm thankful for! Sending them many many thanks!
 
 - Dictionary API: https://dictionaryapi.com/
 - Bee Image by yabayee from Pixabay
+- Magnifying glass favicon from Jen's giphy class lab
