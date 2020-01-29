@@ -60,6 +60,7 @@ I created a [Trello Board](https://trello.com/b/3RcbX0Ee/ga-project-2-react-app)
 ## Technologies:
 - CSS (passed CSS Validator)
 - React
+- Jest & Enzyme (passed test)
 - Flexbox
 - API
 
