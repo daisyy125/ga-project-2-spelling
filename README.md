@@ -12,6 +12,7 @@ My app is called Spelling BusyBees. It’s a dictionary app for kids to look up 
 - [Testing](https://github.com/daisyy125/ga-project-2-spelling#testing)
 - [UX Modifications/Hurdles/Unsolved problems](https://github.com/daisyy125/ga-project-2-spelling#modificationshurdlesunsolved-problems)
 - [Future Add-ons](https://github.com/daisyy125/ga-project-2-spelling#future-add-ons)
+- [Contribution Guidelines](https://github.com/daisyy125/ga-project-2-spelling#contribution-guidelines)
 - [Credits](https://github.com/daisyy125/ga-project-2-spelling#credits)
 
 ## User Stories:
@@ -116,6 +117,14 @@ https://spellingbusybees.herokuapp.com/
 - Add sound for pronunciation of the word.
 - Store previous word searches and allow users to created spelling list from that.
 
+## Contribution Guidelines
+
+I would love improvement feedbacks or advice on how to tackle my unsolved problems. In addition, if there are any bugs you've come across, you can:
+- Create an issue on the repo.
+- Submit a pull request with your proposed improvements.
+
+Thank you in advance!
+
 ## Credits
 Thank you to my wonderful GA Instructors (Hou and Jen) and GA peers for providing technical and moral support throughout!
 
@@ -123,4 +132,4 @@ Credits to amazing sources that I'm thankful for! Sending them many many thanks!
 
 - Dictionary API: https://dictionaryapi.com/
 - Bee Image by yabayee from Pixabay
-- Magnifying glass favicon from Jen's giphy class lab
+- Favicon for the bee icon: https://favicon.io/
