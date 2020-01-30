@@ -66,7 +66,9 @@ I created a [Trello Board](https://trello.com/b/3RcbX0Ee/ga-project-2-react-app)
 - API
 
 ## Installation:
-- Download folder ga-project-2-spelling. Which will include the following folders/files:
+- Fork repository at upper right.
+- Clone/download using SSH or URL link.
+- Folder ga-project-2-spelling will include the following folders/files:
     - app css file
     - public folder
         - index.html
@@ -89,7 +91,7 @@ https://spellingbusybees.herokuapp.com/
 - Upon page load, the search word input field and button (labeled 'BeeFind') is available for users.
 - Type in a word and click on 'BeeFind' to define the word.
 - Definition will appear below the search field in a box.
-- This page is also responsive, therefore the function on mobile devices are the same as desktop.
+- This page is also responsive, therefore the functionality on mobile devices are the same as desktop.
 
 ## Testing:
 
@@ -133,3 +135,4 @@ Credits to amazing sources that I'm thankful for! Sending them many many thanks!
 - Dictionary API: https://dictionaryapi.com/
 - Bee Image by yabayee from Pixabay
 - Favicon for the bee icon: https://favicon.io/
+- Color palette generator (suggestion from MyShawne and Jade):https://coolors.co/
