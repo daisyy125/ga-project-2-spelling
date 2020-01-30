@@ -4,6 +4,7 @@ import Nav from './components/nav/Nav';
 import Search from './components/search/Search';
 import Results from './components/results/Results';
 
+
 //set api
 function App() {
   const searchData = {
@@ -14,6 +15,7 @@ function App() {
   //create an array for search words in state. set to empty string.
   const [searchWord, setSearchWord] = useState('Hello');
   const [returnData, setReturnData] = useState('');
+
 
   useEffect(() => {
     getData(searchWord);
@@ -49,7 +51,7 @@ function App() {
         handleChange={handleChange}
         searchWord={searchWord}
       />
-      <Results searchWord={searchWord} results={returnData} />
+      <Results searchWord={searchWord} results={returnData}/>
     </div>
   );
 }
