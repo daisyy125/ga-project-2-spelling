@@ -12,6 +12,7 @@ function App() {
     api: 'https://www.dictionaryapi.com/api/v3/references/sd3/json/'
   };
 
+
   //create an array for search words in state. set to empty string.
   const [searchWord, setSearchWord] = useState('Hello');
   const [returnData, setReturnData] = useState('');
@@ -51,7 +52,7 @@ function App() {
         handleChange={handleChange}
         searchWord={searchWord}
       />
-      <Results searchWord={searchWord} results={returnData}/>
+      <Results searchWord={searchWord} results={returnData} />
     </div>
   );
 }
