@@ -79,6 +79,7 @@ I created a [Trello Board](https://trello.com/b/3RcbX0Ee/ga-project-2-react-app)
             - search
     - wireframes folder (images)
 - Open ga-project-2-spelling folder in terminal with npm start.
+- Please note that there are two different branches and that you are viewing the Master branch.
 
 *Deployed url is listed below under "Usage".
 
@@ -124,6 +125,7 @@ https://spellingbusybees.herokuapp.com/
 I would love improvement feedbacks or advice on how to tackle my unsolved problems. In addition, if there are any bugs you've come across, you can:
 - Create an issue on the repo.
 - Submit a pull request with your proposed improvements.
+- There are two branches (Master and Thesaurus-branch). I'm currently testing a new Thesaurus feature that is being worked on under Thesaurus-branch.
 
 Thank you in advance!
 
