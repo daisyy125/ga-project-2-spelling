@@ -12,10 +12,15 @@ function App() {
     api: 'https://www.dictionaryapi.com/api/v3/references/sd3/json/'
   };
 
+  const searchSyn = {
+    key: process.env.REACT_APP_THES_API_KEY,
+    api: 'https://www.dictionaryapi.com/api/v3/references/ithesaurus/json/'
+  };
+
   //create an array for search words in state. set to empty string.
   const [searchWord, setSearchWord] = useState('Hello');
   const [returnData, setReturnData] = useState('');
-
+  const [returnSyn, setReturnSyn] = useState('');
 
   useEffect(() => {
     getData(searchWord);
@@ -24,6 +29,7 @@ function App() {
 
   function getData(searchWord) {
     const url = `${searchData.api}${searchWord}?key=${searchData.key}`;
+    const urlSyn = `${searchSyn.api}${searchWord}?key=${searchSyn.key}`;
 
     fetch(url)
       .then(response => response.json())
@@ -32,6 +38,14 @@ function App() {
         setSearchWord('');
       })
       .catch(console.error);
+
+    fetch(urlSyn)
+      .then(response => response.json())
+      .then(response => {
+        setReturnSyn(response[0]);
+      })
+      .catch(console.error);
+
   }
 
   function handleChange(event) {
@@ -51,7 +65,7 @@ function App() {
         handleChange={handleChange}
         searchWord={searchWord}
       />
-      <Results searchWord={searchWord} results={returnData}/>
+      <Results searchWord={searchWord} results={returnData} syn={returnSyn} />
     </div>
   );
 }
