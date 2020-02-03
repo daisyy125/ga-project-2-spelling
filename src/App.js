@@ -3,20 +3,19 @@ import './App.css';
 import Nav from './components/nav/Nav';
 import Search from './components/search/Search';
 import Results from './components/results/Results';
+// Hou comment: I removed some redundant whitespaces in this file
 
-
-//set api
+// Hou comment: Nice job using hooks to add state to your functional components throughout your app!
 function App() {
   const searchData = {
     key: process.env.REACT_APP_STOCK_API_KEY,
     api: 'https://www.dictionaryapi.com/api/v3/references/sd3/json/'
   };
 
-
+  // Hou comment: I don't think the comment below is needed, since it does not really describe the code that follows
   //create an array for search words in state. set to empty string.
   const [searchWord, setSearchWord] = useState('Hello');
   const [returnData, setReturnData] = useState('');
-
 
   useEffect(() => {
     getData(searchWord);

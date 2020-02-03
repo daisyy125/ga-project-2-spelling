@@ -5,7 +5,7 @@ function Results(props) {
 
   if (results.meta && results.hwi && results.shortdef) {
     return (
-      <div className='results'>
+      <div className="results">
         <h2>{results.meta.id}</h2>
         <p>
           <strong>Pronunciation:</strong>
@@ -15,20 +15,17 @@ function Results(props) {
           <strong>Definition:</strong>
         </p>
         <ol>
-          {results.shortdef &&
-            results.shortdef.map((result, index) => (
-              <li className='definition' key={index}>
-                {result}
-              </li>
-            ))}
+          {results.shortdef.map((result, index) => (
+            <li className="definition" key={index}>
+              {result}
+            </li>
+          ))}
         </ol>
       </div>
     );
   } else {
     return null;
   }
-
-
 }
 
 export default Results;
