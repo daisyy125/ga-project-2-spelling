@@ -1,61 +1,66 @@
+/* Hou comment: Consider creating separate stylesheets for your components. That said, I like how you clearly labeled which part of the application a particular CSS declaration applies to below.*/
+
+/* Hou comment: I also noticed that some files are indented by 4 spaces whereas others are indented by 2 spaces. Make sure all your files follow just one convention. For this feedback branch, I will follow the 2 spaces rule.*/
+
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-image: url('./bee-705412_1280.png');
-    background-position: bottom center;
-    background-size: auto;
-    background-repeat: no-repeat;
-    font-family: 'Quicksand', sans-serif;
-    height: 100%;
+  background-image: url('./bee-705412_1280.png');
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-family: 'Quicksand', sans-serif;
+  height: 100%;
 }
 
 /* ////////////// */
 /* Header/NAV */
 /* ////////////// */
 
+/* Hou comment: How would you avoid using tag selectors to style your components? */
 h1 {
-    background: #EFCA08;
-    font-size: 40px;
-    opacity: 0.8;
-    padding: 20px;
-    text-align: center;
+  background: #efca08;
+  font-size: 40px;
+  opacity: 0.8;
+  padding: 20px;
+  text-align: center;
 }
-
 
 /* ////////////// */
 /* SEARCH */
 /* ////////////// */
 
 .formParent {
-    display: flex;
-    height: 50px;
-    justify-content: flex-start;
-    margin-left: 75px;
-    margin-top: 50px;
+  display: flex;
+  height: 50px;
+  justify-content: flex-start;
+  margin-left: 75px;
+  margin-top: 50px;
 }
 
+/* Hou comment: how would you use CSS variables to store #f08700 in a variable for reuse? */
 .formItem {
-    border: 2px solid #F08700;
-    width: 25%;
+  border: 2px solid #f08700;
+  width: 25%;
 }
 
 input {
-    background:lightgoldenrodyellow;
-    font-size: 25px;
-    margin: 0 20px;
+  background: lightgoldenrodyellow;
+  font-size: 25px;
+  margin: 0 20px;
 }
 
 button {
-    background: lightblue;
-    border-radius: 5px;
-    font-size: 18px;
-    margin-right: 20px;
-    max-width: 180px;
+  background: lightblue;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 20px;
+  max-width: 180px;
 }
 
 /* ////////////// */
@@ -63,21 +68,21 @@ button {
 /* ////////////// */
 
 .results {
-    background: white;
-    border: 2px dotted #F08700;
-    border-radius: 12px;
-    margin: 100px 0 350px 100px;
-    padding: 50px;
-    width: 400px;
+  background: white;
+  border: 2px dotted #f08700;
+  border-radius: 12px;
+  margin: 100px 0 350px 100px;
+  padding: 50px;
+  width: 400px;
 }
 
 .results p {
-    font-size: 16px;
-    margin-top: 15px;
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 ul {
-    line-height: 22px;
+  line-height: 22px;
 }
 
 /* /////////////////////////
@@ -85,46 +90,44 @@ ul {
 //////////////////////////*/
 
 @media screen and (max-width: 600px) {
-
-body {
+  body {
     background-position: bottom center;
     background-size: 85%;
     margin: 0 auto;
-}
+  }
 
-h1 {
+  h1 {
     font-size: 28px;
-}
+  }
 
-.formParent {
+  .formParent {
     height: 40px;
     justify-content: center;
     margin: 30px auto;
     max-width: 550px;
-}
+  }
 
-.formItem {
+  .formItem {
     width: 100%;
-}
+  }
 
-input {
+  input {
     font-size: 18px;
-}
+  }
 
-button {
+  button {
     font-size: 15px;
     max-width: 100px;
-}
+  }
 
-.results {
+  .results {
     font-size: 15px;
     margin: 50px auto 270px;
     padding: 20px;
     max-width: 400px;
-}
+  }
 
-h2 {
+  h2 {
     font-size: 22px;
-}
-
+  }
 }
